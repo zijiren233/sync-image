@@ -1,5 +1,5 @@
 ghcr.io/zijiren233/sealos-cloud: registry.cn-shanghai.aliyuncs.com/sealos-cloud/sealos-cloud
-docker.io/labring/kubernetes:/^v\d+\.\d+\.\d+$/: registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubernetes
+docker.io/labring/kubernetes:/^v1.[2|3]\d+\.\d+$/: registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubernetes
 docker.io/labring/cilium: registry.cn-shanghai.aliyuncs.com/sealos-cloud/cilium
 docker.io/labring/cert-manager: registry.cn-shanghai.aliyuncs.com/sealos-cloud/cert-manager
 docker.io/labring/helm: registry.cn-shanghai.aliyuncs.com/sealos-cloud/helm
