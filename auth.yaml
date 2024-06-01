@@ -1,6 +1,9 @@
 registry.cn-shanghai.aliyuncs.com:
   username: ${ALI_USERNAME}
   password: ${ALI_PASSWORD}
+registry.us-west-1.aliyuncs.com:
+  username: ${ALI_USERNAME}
+  password: ${ALI_PASSWORD}
 ghcr.io:
   username: ${GHCR_USERNAME}
   password: ${GHCR_PASSWORD}
