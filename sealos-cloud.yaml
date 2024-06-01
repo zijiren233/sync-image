@@ -1,15 +1,45 @@
-ghcr.io/zijiren233/sealos-cloud:/^v/: registry.cn-shanghai.aliyuncs.com/sealos-cloud/sealos-cloud
-docker.io/labring/kubernetes:/^v1.[2|3]\d+\.\d+$/: registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubernetes
-docker.io/labring/cilium: registry.cn-shanghai.aliyuncs.com/sealos-cloud/cilium
-docker.io/labring/cert-manager: registry.cn-shanghai.aliyuncs.com/sealos-cloud/cert-manager
-docker.io/labring/helm: registry.cn-shanghai.aliyuncs.com/sealos-cloud/helm
-docker.io/labring/openebs: registry.cn-shanghai.aliyuncs.com/sealos-cloud/openebs
-docker.io/labring/ingress-nginx: registry.cn-shanghai.aliyuncs.com/sealos-cloud/ingress-nginx
-docker.io/labring/kubeblocks: registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubeblocks
-docker.io/labring/kubeblocks-redis: registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubeblocks-redis
-docker.io/labring/kubeblocks-apecloud-mysql: registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubeblocks-apecloud-mysql
-docker.io/labring/kubeblocks-postgresql: registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubeblocks-postgresql
-docker.io/labring/kubeblocks-mongodb: registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubeblocks-mongodb
-docker.io/labring/cockroach: registry.cn-shanghai.aliyuncs.com/sealos-cloud/cockroach
-docker.io/labring/metrics-server: registry.cn-shanghai.aliyuncs.com/sealos-cloud/metrics-server
-docker.io/labring/victoria-metrics-k8s-stack: registry.cn-shanghai.aliyuncs.com/sealos-cloud/victoria-metrics-k8s-stack
+ghcr.io/zijiren233/sealos-cloud:/^v/:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/sealos-cloud
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/sealos-cloud
+docker.io/labring/kubernetes:/^v1.[2|3]\d+\.\d+$/:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubernetes
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/kubernetes
+docker.io/labring/cilium:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/cilium
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/cilium
+docker.io/labring/cert-manager:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/cert-manager
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/cert-manager
+docker.io/labring/helm:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/helm
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/helm
+docker.io/labring/openebs:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/openebs
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/openebs
+docker.io/labring/ingress-nginx:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/ingress-nginx
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/ingress-nginx
+docker.io/labring/kubeblocks:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubeblocks
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/kubeblocks
+docker.io/labring/kubeblocks-redis:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubeblocks-redis
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/kubeblocks-redis
+docker.io/labring/kubeblocks-apecloud-mysql:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubeblocks-apecloud-mysql
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/kubeblocks-apecloud-mysql
+docker.io/labring/kubeblocks-postgresql:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubeblocks-postgresql
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/kubeblocks-postgresql
+docker.io/labring/kubeblocks-mongodb:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/kubeblocks-mongodb
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/kubeblocks-mongodb
+docker.io/labring/cockroach:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/cockroach
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/cockroach
+docker.io/labring/metrics-server:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/metrics-server
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/metrics-server
+docker.io/labring/victoria-metrics-k8s-stack:
+  - registry.cn-shanghai.aliyuncs.com/sealos-cloud/victoria-metrics-k8s-stack
+  - registry.ap-southeast-1.aliyuncs.com/sealos-cloud/victoria-metrics-k8s-stack
