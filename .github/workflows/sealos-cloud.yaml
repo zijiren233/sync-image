@@ -22,5 +22,5 @@ jobs:
           ALI_PASSWORD: ${{ secrets.ALI_PASSWORD }}
           GHCR_USERNAME: ${{ secrets.GHCR_USERNAME }}
           GHCR_PASSWORD: ${{ secrets.GHCR_PASSWORD }}
-          DOCKER_USERNAMES: ${{ secrets.DOCKER_USERNAMES}}
-          DOCKER_PASSWORDS: ${{ secrets.DOCKER_PASSWORDS}}
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
