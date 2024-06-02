@@ -7,3 +7,6 @@ registry.us-west-1.aliyuncs.com:
 ghcr.io:
   username: ${GHCR_USERNAME}
   password: ${GHCR_PASSWORD}
+docker.io:
+  username: ${DOCKER_USERNAME}
+  password: ${DOCKER_PASSWORD}
