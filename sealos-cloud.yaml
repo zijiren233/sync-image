@@ -28,3 +28,7 @@ docker.io/labring/metrics-server:
   - docker.io/zijiren/metrics-server
 docker.io/labring/victoria-metrics-k8s-stack:
   - docker.io/zijiren/victoria-metrics-k8s-stack
+docker.io/labring/istio-base:
+  - docker.io/zijiren/istio-base
+docker.io/labring/higress:
+  - docker.io/zijiren/higress
