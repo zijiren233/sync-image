@@ -1,6 +1,6 @@
-ghcr.io:
+ghcr.io/zijiren233:
   username: ${GHCR_USERNAME}
   password: ${GHCR_PASSWORD}
-docker.io:
+docker.io/zijiren:
   username: ${DOCKER_USERNAME}
   password: ${DOCKER_PASSWORD}
