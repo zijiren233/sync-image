@@ -1,0 +1,2 @@
+ghcr.io/zijiren233/sealos-cloud:/^v/:
+  - docker.io/zijiren/sealos-cloud
