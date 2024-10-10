@@ -8,8 +8,8 @@ docker.io/labring/helm:
   - docker.io/zijiren/helm
 docker.io/labring/openebs:
   - docker.io/zijiren/openebs
-docker.io/labring/ingress-nginx:
-  - docker.io/zijiren/ingress-nginx
+docker.io/labring/kubeblocks-csi-s3:
+  - docker.io/zijiren/kubeblocks-csi-s3
 docker.io/labring/kubeblocks:
   - docker.io/zijiren/kubeblocks
 docker.io/labring/kubeblocks-redis:
